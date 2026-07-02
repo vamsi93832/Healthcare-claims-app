@@ -1,0 +1,13 @@
+denial_reason,count,amount
+Duplicate Claim,907,1804433.71
+Patient Not Eligible,878,1778987.05
+Exceeds Benefit Limit,857,1754792.77
+Service Not Covered,845,1609418.14
+Incomplete Documentation,844,1680037.45
+Out of Network,839,1684570.77
+Pre-authorization Required,839,1665401.2
+Medical Necessity Not Met,832,1642798.04
+Provider Contract Expired,830,1622136.28
+Invalid Provider,819,1620259.35
+Age Restriction,788,1585919.13
+Procedure Code Mismatch,779,1573468.0

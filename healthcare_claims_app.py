@@ -41,6 +41,20 @@ np.random.seed(42)
 random.seed(42)
 
 # ============================================================================
+# SESSION STATE INITIALIZATION
+# ============================================================================
+
+# Initialize session state variables
+if 'data_generated' not in st.session_state:
+    st.session_state.data_generated = False
+if 'providers' not in st.session_state:
+    st.session_state.providers = None
+if 'members' not in st.session_state:
+    st.session_state.members = None
+if 'claims' not in st.session_state:
+    st.session_state.claims = None
+
+# ============================================================================
 # DATA GENERATION FUNCTIONS
 # ============================================================================
 
@@ -66,7 +80,7 @@ def generate_claims_data():
     
     # Generate providers
     providers = pd.DataFrame({
-        'provider_id': range(5001, 5151),
+        'provider_id': list(range(5001, 5151)),
         'provider_name': [f'Medical Center {i}' for i in range(1, 151)],
         'provider_type': np.random.choice(provider_types, 150),
         'state': np.random.choice(states, 150),
@@ -75,7 +89,7 @@ def generate_claims_data():
     
     # Generate members
     members = pd.DataFrame({
-        'member_id': range(1000001, 1010001),
+        'member_id': list(range(1000001, 1010001)),
         'member_name': [f'Member_{i}' for i in range(1, 10001)],
         'date_of_birth': [datetime(1950, 1, 1) + timedelta(days=random.randint(0, 20000)) 
                          for _ in range(10000)],
@@ -84,17 +98,26 @@ def generate_claims_data():
         'state': np.random.choice(states, 10000),
     })
     
-    # Generate claims
+    # Generate claims data explicitly
+    num_claims = 50000
+    claim_ids = list(range(3001, 3001 + num_claims))
+    member_ids = np.random.choice(members['member_id'].values, num_claims).tolist()
+    provider_ids = np.random.choice(providers['provider_id'].values, num_claims).tolist()
+    claim_dates = [datetime(2023, 1, 1) + timedelta(days=random.randint(0, 365)) 
+                   for _ in range(num_claims)]
+    service_dates = [datetime(2023, 1, 1) + timedelta(days=random.randint(0, 365)) 
+                     for _ in range(num_claims)]
+    procedure_codes_data = np.random.choice(procedure_codes, num_claims).tolist()
+    billed_amounts = np.random.uniform(100, 5000, num_claims).tolist()
+    
     claims = pd.DataFrame({
-        'claim_id': range(3001, 3050001),
-        'member_id': np.random.choice(members['member_id'].values, 50000),
-        'provider_id': np.random.choice(providers['provider_id'].values, 50000),
-        'claim_date': [datetime(2023, 1, 1) + timedelta(days=random.randint(0, 365)) 
-                      for _ in range(50000)],
-        'service_date': [datetime(2023, 1, 1) + timedelta(days=random.randint(0, 365)) 
-                        for _ in range(50000)],
-        'procedure_code': np.random.choice(procedure_codes, 50000),
-        'billed_amount': np.random.uniform(100, 5000, 50000),
+        'claim_id': claim_ids,
+        'member_id': member_ids,
+        'provider_id': provider_ids,
+        'claim_date': claim_dates,
+        'service_date': service_dates,
+        'procedure_code': procedure_codes_data,
+        'billed_amount': billed_amounts,
     })
     
     # Assign claim status
@@ -167,10 +190,6 @@ with st.sidebar:
 if generate_data:
     st.session_state.data_generated = True
 
-# Check if data is already generated
-if 'data_generated' not in st.session_state:
-    st.session_state.data_generated = False
-
 # Generate data if needed
 if st.session_state.data_generated:
     providers, members, claims = generate_claims_data()
@@ -181,7 +200,7 @@ if st.session_state.data_generated:
     st.rerun()
 
 # Check if data exists
-if 'claims' not in st.session_state:
+if st.session_state.claims is None:
     st.warning("👈 Click 'Generate Sample Data' in the sidebar to get started!")
     st.stop()
 
@@ -245,7 +264,7 @@ if page == "📊 Dashboard":
         fig_status = px.pie(
             values=status_data.values,
             names=status_data.index,
-            colors=['#2ecc71', '#e74c3c', '#f39c12'],
+            color_discrete_sequence=['#2ecc71', '#e74c3c', '#f39c12'],
             hole=0.3
         )
         st.plotly_chart(fig_status, use_container_width=True)
