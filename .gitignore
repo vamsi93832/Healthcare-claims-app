@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# rebuilt by 01_load_and_validate.py. the raw CMS files in data/raw ARE committed
+data/processed/

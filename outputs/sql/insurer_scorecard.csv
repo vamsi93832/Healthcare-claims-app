@@ -1,0 +1,142 @@
+issuer_name,state,claims_received,denial_rate_pct,state_peers_rate_pct,gap_pts,excess_denials,appeal_overturn_pct
+"Health Options, Inc.",FL,43035924.0,24.6,20.9,3.8,1617518.0,44.8
+"UnitedHealthcare of Texas, Inc.",TX,20047828.0,24.0,19.5,4.5,897489.0,35.0
+BlueCross BlueShield of Tennessee,TN,7365517.0,26.8,21.2,5.6,413141.0,45.0
+"Community Health Choice, Inc.",TX,7456561.0,24.9,19.9,5.1,377564.0,24.7
+"Meridian Health Plan of Michigan, Inc.",MI,4193640.0,25.3,16.4,8.8,370770.0,
+UnitedHealthcare Insurance Company,AL,7407082.0,25.2,20.3,4.9,364919.0,38.5
+Oscar Insurance Company,TX,3521352.0,29.8,19.9,9.9,350351.0,23.6
+Cigna Health and Life Insurance Company,MS,2609050.0,30.5,17.2,13.3,346815.0,48.6
+Oscar Buckeye State Insurance Corp.,OH,1910531.0,36.4,20.4,15.9,304495.0,25.1
+UnitedHealthcare Insurance Company,LA,1553306.0,35.4,17.6,17.8,276619.0,34.9
+"UnitedHealthcare of Arizona, Inc.",AZ,3109278.0,28.4,20.4,8.0,249673.0,38.1
+UnitedHealthcare Insurance Company,MO,1458708.0,30.7,16.8,14.0,203683.0,34.5
+"UnitedHealthcare Community Plan, Inc.",MI,1110639.0,35.6,17.5,18.1,200838.0,23.7
+"Cigna HealthCare of Texas, Inc.",TX,4219841.0,24.0,20.0,4.0,169683.0,63.8
+"UnitedHealthcare of Florida, Inc.",FL,4576465.0,26.1,22.5,3.5,162108.0,26.1
+"UnitedHealthcare of Ohio, Inc.",OH,1235593.0,33.2,21.3,11.9,147303.0,35.0
+Hawaii Medical Service Association,HI,727519.0,27.3,7.3,20.1,146073.0,50.0
+"UnitedHealthcare of North Carolina, Inc",NC,1863541.0,27.7,19.9,7.7,144351.0,37.4
+Celtic Insurance Company,MO,6509852.0,19.2,17.4,1.8,117639.0,
+UnitedHealthcare Insurance Company,TN,2595620.0,26.7,22.4,4.3,112341.0,31.7
+CareSource West Virginia Co.,WV,962053.0,30.5,20.4,10.1,96792.0,6.5
+"UnitedHealthcare of Wisconsin, Inc.",WI,789462.0,26.5,14.5,12.0,94584.0,41.1
+Oscar Insurance Company,IA,655352.0,34.4,20.7,13.7,89817.0,29.8
+Blue Care Network of Michigan,MI,3524039.0,20.6,18.3,2.4,82912.0,85.7
+UnitedHealthcare Insurance Company,KS,1145267.0,26.0,19.4,6.6,75909.0,31.5
+"Security Health Plan of Wisconsin, Inc.",WI,1364313.0,20.1,14.7,5.4,73579.0,65.1
+Celtic Insurance Company,NH,790001.0,18.1,9.0,9.1,71830.0,58.1
+Oscar Insurance Company,MO,668238.0,28.3,17.8,10.6,70636.0,31.8
+"UnitedHealthcare of South Carolina, Inc.",SC,605443.0,29.3,17.8,11.5,69458.0,31.0
+Medica Insurance Company,NE,1367373.0,23.3,18.7,4.7,63682.0,49.3
+"Health First Commercial Plans, Inc.",FL,2281549.0,25.3,22.7,2.7,60539.0,63.3
+Wellmark of South Dakota,SD,446393.0,17.5,4.6,12.8,57245.0,28.3
+"UnitedHealthcare of Oklahoma, Inc.",OK,378926.0,33.7,19.2,14.5,55084.0,19.7
+Celtic Insurance Company,OK,2313526.0,21.5,19.2,2.4,54663.0,
+Blue Cross Blue Shield of North Dakota,ND,724618.0,15.1,7.7,7.4,53519.0,44.6
+"MOLINA HEALTHCARE OF SOUTH CAROLINA, INC",SC,1138255.0,22.5,17.9,4.6,52762.0,57.6
+"CareSource Ohio, Inc.",OH,3085983.0,23.4,21.8,1.7,51335.0,19.0
+"Molina Healthcare of Texas, Inc.",TX,1045155.0,24.9,20.1,4.8,49933.0,54.7
+"Molina Healthcare of Florida, Inc",FL,1609637.0,25.7,22.7,3.0,48936.0,23.2
+Oscar Insurance Company,TN,898028.0,28.0,22.6,5.4,48548.0,38.3
+Oscar Insurance Company,KS,380721.0,32.4,19.8,12.6,48129.0,35.2
+"AmeriHealth Caritas North Carolina, Inc.",NC,456084.0,30.6,20.3,10.3,46934.0,63.5
+"Moda Health Plan, Inc.",OR,1123420.0,15.7,11.8,3.9,43693.0,38.7
+Medica Insurance Company,OK,445895.0,29.0,19.3,9.7,43398.0,63.9
+"Molina Healthcare of Ohio, Inc.",OH,2198393.0,23.7,21.8,1.9,42116.0,50.0
+"Oscar Health Plan, Inc.",AZ,344800.0,34.6,22.7,11.9,41039.0,20.7
+"Moda Health Plan, Inc.",AK,204058.0,47.0,28.2,18.8,38267.0,48.6
+Ambetter of North Carolina Inc.,NC,5146068.0,21.0,20.4,0.7,34585.0,
+CareSource North Carolina Co.,NC,207708.0,37.0,20.4,16.6,34549.0,13.0
+Medica Insurance Company,MO,422314.0,25.5,18.0,7.4,31415.0,48.1
+"Molina Healthcare of Mississippi, Inc",MS,757369.0,23.0,19.2,3.8,28878.0,62.1
+"AvMed, Inc.",FL,469288.0,28.7,22.7,6.0,28248.0,
+"UnitedHealthcare of Mississippi, Inc.",MS,365368.0,26.9,19.2,7.7,28056.0,31.1
+Medica Insurance Company,IA,461507.0,27.6,21.9,5.7,26418.0,50.3
+Anthem Ins Companies Inc(Anthem BCBS),IN,3553957.0,22.7,22.0,0.7,26198.0,30.6
+Select Health of South Carolina,SC,141484.0,36.5,18.0,18.5,26179.0,55.2
+Oscar Insurance Company,OK,374292.0,25.6,19.4,6.1,23017.0,27.4
+Cigna Health and Life Insurance Company,IN,429443.0,27.4,22.0,5.4,23011.0,49.3
+Harvard Pilgrim Health Care of NE,NH,117250.0,28.8,10.6,18.2,21366.0,33.3
+"HMO Partners, Inc.",AR,1530994.0,16.8,15.5,1.3,19511.0,29.1
+CHRISTUS Health Plan Louisiana,LA,238872.0,28.0,19.9,8.1,19232.0,40.9
+"AmeriHealth Caritas VIP Next, Inc.",DE,182083.0,29.6,19.6,10.0,18228.0,45.2
+Compcare Health Serv Ins Co(Anthem BCBS),WI,2886370.0,15.8,15.2,0.6,17757.0,58.4
+Medica Community Health Plan,WI,524489.0,18.5,15.2,3.3,17416.0,54.6
+"Ambetter Health of Louisiana, Inc.",LA,2111052.0,20.7,20.0,0.7,15798.0,
+"Summa Insurance Company, Inc.",OH,215623.0,29.0,22.0,7.0,15084.0,76.8
+Community First Insurance Plans,TX,119190.0,32.5,20.1,12.3,14708.0,
+"Moda Health Plan, Inc.",TX,150551.0,28.3,20.1,8.2,12371.0,35.9
+"Sendero Health Plans, Inc.",TX,494650.0,22.5,20.1,2.4,11929.0,66.7
+"Oscar Health Plan of North Carolina, Inc",NC,107392.0,31.2,20.5,10.8,11573.0,36.6
+Blue Cross and Blue Shield of Montana,MT,1224773.0,13.2,12.3,0.9,11488.0,31.0
+Network Health Plan,WI,313114.0,18.5,15.3,3.2,10067.0,38.7
+McLaren Health Plan Community,MI,108933.0,25.6,18.8,6.8,7456.0,88.2
+Blue Cross and Blue Shield of Kansas City,MO,156249.0,22.1,18.2,3.9,6076.0,33.0
+"Cigna HealthCare of North Carolina, Inc.",NC,1079077.0,21.0,20.5,0.6,6022.0,26.0
+"SelectHealth, Inc.",UT,8646012.0,19.8,19.7,0.1,5972.0,27.1
+"USAble HMO, Inc.",AR,774831.0,16.3,15.6,0.7,5484.0,32.1
+Molina Healthcare of Utah,UT,129448.0,23.8,19.7,4.1,5261.0,71.8
+USAble Mutual Insurance Company,AR,4314995.0,15.7,15.6,0.1,2368.0,31.6
+Blue Cross and Blue Shield of Kansas City,KS,104797.0,21.8,20.5,1.4,1422.0,38.6
+Oscar Insurance Corporation of Ohio,OH,639135.0,22.1,22.0,0.1,352.0,34.1
+Dean Health Plan,WI,1117399.0,15.4,15.4,0.0,151.0,49.4
+University of Utah Health Insurance Plans,UT,652716.0,19.7,19.7,-0.0,-298.0,32.2
+Cox Health Systems Insurance Company,MO,102975.0,17.7,18.3,-0.6,-603.0,45.8
+"Cigna HealthCare of Arizona, Inc",AZ,149478.0,21.4,23.2,-1.8,-2731.0,56.4
+Regence BlueCross BlueShield of Oregon,OR,1068671.0,13.3,13.6,-0.3,-3302.0,14.3
+Regence BlueCross BlueShield of Utah,UT,421327.0,18.4,19.8,-1.5,-6112.0,12.3
+CommunityCare HMO Inc.,OK,458029.0,18.1,19.6,-1.6,-7107.0,50.5
+Paramount Insurance Company,OH,115113.0,15.7,22.1,-6.3,-7291.0,73.3
+Celtic Insurance Company,AR,8656738.0,15.6,15.7,-0.1,-7910.0,0.0
+Montana Health Cooperative,MT,928281.0,12.3,13.2,-0.9,-8707.0,24.0
+"QualChoice Life & Health Insurance Company, Inc.",AR,1804696.0,15.1,15.7,-0.6,-10080.0,0.0
+"Aspirus Health Plan, Inc.",WI,405418.0,12.6,15.5,-2.9,-11832.0,
+"MercyCare HMO, Inc.",WI,213818.0,9.9,15.5,-5.6,-12049.0,
+"QCA Health Plan, Inc.",AR,1715924.0,15.0,15.7,-0.7,-12792.0,0.0
+Group Health Cooperative of South Central Wisconsin,WI,212263.0,9.4,15.5,-6.1,-13012.0,
+"Avera Health Plans, Inc.",SD,440684.0,3.5,9.3,-5.8,-25766.0,44.8
+Cigna Health and Life Insurance Company,FL,4777130.0,22.2,22.8,-0.6,-26456.0,32.1
+Providence Health Plan,OR,443992.0,8.3,14.5,-6.2,-27451.0,72.1
+Blue Cross and Blue Shield of Nebraska,NE,608828.0,18.2,23.4,-5.2,-31727.0,22.8
+Cigna Health and Life Insurance Company,TN,4843786.0,22.2,22.9,-0.7,-34073.0,52.8
+CHRISTUS Health Plan,TX,1459196.0,17.3,20.2,-2.9,-42074.0,31.4
+HealthPartners Insurance Company,WI,478102.0,6.6,15.8,-9.1,-43733.0,
+Sanford Health Plan,SD,879472.0,5.2,10.5,-5.3,-46680.0,59.7
+Quartz Health Benefit Plans Corporation,WI,706744.0,8.6,15.9,-7.2,-51068.0,48.0
+Celtic Insurance Company,AL,2195527.0,19.9,22.3,-2.4,-52143.0,
+Sunshine State Health Plan,FL,1747455.0,19.7,22.8,-3.1,-54122.0,
+"Blue Cross and Blue Shield of Kansas, Inc.",KS,1100878.0,15.6,21.4,-5.8,-63772.0,55.2
+Louisiana Health Service & Indemnity Company,LA,1073268.0,14.6,20.7,-6.1,-65623.0,32.1
+Sanford Health Plan,ND,663600.0,5.9,15.9,-9.9,-66025.0,65.3
+Medical Health Insuring Corp. of Ohio,OH,1360063.0,17.4,22.4,-5.0,-67928.0,64.1
+"CareSource Indiana, Inc.",IN,3746232.0,21.4,23.2,-1.9,-69634.0,16.6
+Superior Health Plan,TX,8781270.0,19.4,20.2,-0.8,-71287.0,57.4
+"Absolute Total Care, Inc",SC,9103191.0,17.6,18.4,-0.8,-72541.0,
+"Blue Cross and Blue Shield of Arizona, Inc.",AZ,1604775.0,19.4,24.1,-4.7,-75244.0,37.9
+Common Ground Healthcare Cooperative,WI,1533514.0,11.1,16.1,-5.0,-76745.0,
+Capital Health Plan,FL,559771.0,7.1,22.8,-15.8,-88209.0,33.9
+Buckeye Community Health Plan,OH,4081129.0,20.1,22.6,-2.5,-101084.0,59.5
+Blue Cross Blue Shield of Michigan Mutual Insurance Company,MI,2242734.0,13.9,19.7,-5.8,-129713.0,46.8
+Celtic Insurance Company,KS,4203427.0,19.0,22.7,-3.7,-153613.0,1.8
+Premera Blue Cross Blue Shield of Alaska,AK,819150.0,28.2,47.0,-18.8,-153615.0,47.6
+"Florida Health Care Plan, Inc.",FL,3627195.0,18.5,22.9,-4.4,-159945.0,27.4
+Highmark BCBSD Inc.,DE,2088505.0,19.4,29.5,-10.0,-209088.0,30.6
+Blue Cross and Blue Shield of South Carolina,SC,12121048.0,17.3,19.0,-1.7,-210004.0,41.9
+"Health Net of Arizona, Inc.",AZ,3580808.0,19.4,25.8,-6.5,-231380.0,2.8
+Highmark Blue Cross Blue Shield West Virginia,WV,2380084.0,20.4,30.5,-10.1,-239460.0,31.5
+Matthew Thornton Hlth Plan(Anthem BCBS),NH,2247274.0,8.0,19.5,-11.5,-258736.0,41.9
+Blue Cross and Blue Shield of Alabama,AL,10908371.0,20.4,24.0,-3.7,-398521.0,50.2
+Community Insurance Company(Anthem BCBS),OH,3841838.0,12.8,24.4,-11.7,-449352.0,26.8
+"HMO Louisiana, Inc.",LA,6029822.0,16.6,24.3,-7.7,-464313.0,33.2
+"Wellmark Health Plan of Iowa, Inc.",IA,4086062.0,19.9,31.6,-11.7,-477865.0,32.8
+Scott and White Health Plan,TX,9635438.0,15.3,20.5,-5.2,-499071.0,60.2
+Healthy Alliance Life Co(Anthem BCBS),MO,4249360.0,10.1,22.0,-11.9,-507309.0,36.3
+Blue Cross Blue Shield of Oklahoma,OK,9295961.0,17.9,23.5,-5.6,-518551.0,29.6
+Priority Health,MI,4220185.0,8.7,22.6,-13.9,-585687.0,21.5
+Celtic Insurance Company,TN,10214665.0,18.7,25.5,-6.7,-686576.0,
+Blue Cross and Blue Shield of NC,NC,16959958.0,19.0,23.4,-4.5,-755652.0,36.1
+Celtic Insurance Company,TX,17913148.0,16.2,20.7,-4.5,-801552.0,61.2
+Blue Cross Blue Shield of Texas,TX,61503844.0,19.4,20.7,-1.3,-818198.0,50.3
+Blue Cross and Blue Shield of Florida,FL,23252714.0,19.4,24.0,-4.6,-1075975.0,47.6
+Ambetter of Magnolia Inc.,MS,12226636.0,16.5,28.6,-12.1,-1475492.0,0.0

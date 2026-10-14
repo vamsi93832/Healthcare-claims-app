@@ -1,0 +1,3 @@
+year,insurers_reporting,claims_received,claims_denied,denial_rate_pct,in_network_denial_pct,out_network_denial_pct,appeals_filed,appeals_per_10k_denials,appeal_overturn_pct
+2023,177,471049416.0,98560422.0,20.92,19.7,36.13,376343.0,38.4,43.8
+2024,158,495646493.0,100974353.0,20.37,18.73,37.1,255373.0,27.8,33.6
