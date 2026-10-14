@@ -1,5 +1,9 @@
 # Marketplace Claim Denials Analysis
 
+[![Open the live dashboard](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://healthcare-claims-app-ifbhemhkcwxrgfdeuvcfpk.streamlit.app/)
+
+**[View the live dashboard →](https://healthcare-claims-app-ifbhemhkcwxrgfdeuvcfpk.streamlit.app/)**
+
 **How often do health insurers deny claims, which ones deny far more than their competitors, and how much of it could be prevented?**
 
 Every insurer selling individual plans on HealthCare.gov has to report its claims, denials and appeals to CMS. This project takes two years of that federal data, covering about 500 million claims a year from up to 206 insurers in 31 states, and turns it into the analysis a health plan's analytics team would hand to leadership: validated KPIs, an insurer benchmark, a breakdown of preventable denials, and an appeals review. It runs on Python, SQL and a Streamlit dashboard.
